@@ -1,0 +1,54 @@
+.countryFiles{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.countryInfo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.countryFiles li{
+    list-style: none;
+    max-width: 250px;
+}
+
+.flagIMG{
+    display: flex;
+}
+
+.flagIMG img{
+    border: black solid 1px;
+    width: 50%;
+}
+
+.countryText{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.africa{
+    color: darkblue;
+}
+
+.americas {
+    color: darkgreen;
+}
+
+.asia {
+    color: darkred;
+}
+
+.europe {
+    color: gold;
+}
+
+.oceania {
+    color: purple;
+
+}
+.other {
+    color: darkgrey;
+}

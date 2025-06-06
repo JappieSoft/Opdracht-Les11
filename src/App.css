@@ -3,11 +3,19 @@
     margin: 0;
     padding: 0;
 }
+inner-container{
+    display: flex;
+    flex-direction: column;
+}
 
 img {
-    display: block;
+    display: flex;
     margin: auto;
-    max-width: 75%;
+    width: 1000px;
+}
+
+nav {
+    display: flex;
 }
 
 h1 {
