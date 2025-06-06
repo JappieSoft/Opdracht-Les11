@@ -1,15 +1,11 @@
-.countryFiles{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
+
 .countryInfo{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 
-.countryFiles li{
+.countryLi{
     list-style: none;
     max-width: 250px;
 }

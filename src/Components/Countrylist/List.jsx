@@ -4,7 +4,7 @@ function List({img, alt, name, population, continent}) {
 
 
     return (
-                    <li>
+                    <li className="countryLi">
                         <article className="countryInfo">
                             <div className="flagIMG">
                                 <img src={img} alt={alt}/>
