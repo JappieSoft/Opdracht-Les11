@@ -1,0 +1,30 @@
+.button-enabled {
+    display: block;
+    width: 150px;
+    border: 1px solid #25729a;
+    border-radius: 3px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #3093c7;
+    margin: 20px auto;
+    padding: 7px 7px 7px 7px;
+}
+
+.button-disabled {
+    opacity: 0.65;
+    cursor: not-allowed;
+    display: block;
+    width: 150px;
+    border: 1px solid #25729a;
+    border-radius: 3px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #3093c7;
+    margin: 20px auto;
+    padding: 7px 7px 7px 7px;
+}
+
+button:hover {
+    border: 1px solid #1c5675;
+    background-color: #26759e;
+}
