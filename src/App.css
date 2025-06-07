@@ -1,0 +1,48 @@
+*, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+inner-container {
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    display: flex;
+    margin: auto;
+    width: 1000px;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+nav input{
+    padding-left: 5px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 4em;
+}
+
+p {
+    text-align: center;
+}
+
+.error-message{
+    color: red;
+
+}
+
+.countryFiles{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+footer {
+    padding: 20px;
+}
