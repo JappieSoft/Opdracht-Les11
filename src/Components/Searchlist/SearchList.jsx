@@ -1,7 +1,6 @@
 import './SearchList.css';
-import colorChecker from "../../helpers/countryColor.js";
 
-function SearchList({img, alt, name, subarea, captital, population, neighbours, domain, continent}) {
+function SearchList({img, alt, name, subarea, captital, population, neighbours, domain}) {
 
     return (
                     <li className="searchLi">

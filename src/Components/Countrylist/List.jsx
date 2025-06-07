@@ -18,8 +18,6 @@ function List({img, alt, name, population, continent}) {
     )
 }
 
-
-
 export default List
 
 
